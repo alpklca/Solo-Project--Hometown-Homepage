@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    text-align: center;
+    text-shadow: 0px 0px 2px wheat;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-image: url(images/tunalı.jpg);
+    background-size: cover;
+    min-width: auto;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+#title {
+    background: #184F77;
+    color: #FFFFFF;
+    padding: 3px 12px 5px 12px;
+    border-radius: 10px;
+
+}
+
+#subtitle {
+    background: #459BD9;
+    color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+.activities-section {
+    background: linear-gradient(-90deg, #BBDCF1, #c1b6d2);
+    min-width: 300px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#act-title {
+    font-weight: 700;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#item1 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 40px auto 0 auto;
+}
+
+#item2 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 30px auto 0 auto;
+}
+
+#item3 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 30px auto 0 auto;
+}
+
+.night {
+    background-image: url(images/gece.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.shop {
+    background-image: url(images/karum.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.picnic {
+    background-image: url(images/seğmenler.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#night-image:hover {
+    background-image: url(images/hover-night.jpg);
+}
+
+#picnic-image:hover {
+    background-image: url(images/picnic.jpg);
+}
+
+#shop-image:hover {
+    background-image: url(images/shopping.jpg);
+}
+
+.guide {
+    width: 800px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-bottom: 10px solid #000814;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #c1b6d2, #BBDCF1);
+    color: #184F77;
+}
+
+
+.avatar {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
